@@ -12,7 +12,7 @@ while True:
   if opcao == 1:
     adiciona = int(input("Digite a quantidade a ser adicionado ao estoque: "))
     estoque += adiciona
-    print("Quantidade", adiciona, "foi adionado")
+    print("Quantidade", adiciona, "foi adicionado")
 
   elif opcao == 2:
     venda = int(input("Digite o quantidade da venda: "))
@@ -32,3 +32,6 @@ while True:
   elif opcao == 4:
     print("Saindo...") 
     break  
+
+  else:
+    print("Valor inválido")
